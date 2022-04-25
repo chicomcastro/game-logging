@@ -17,6 +17,16 @@ const trackSchema = mongoose.Schema(
       type: String,
       trim: true,
     },
+    userId: {
+      type: String,
+      trim: true,
+      default: null,
+    },
+    anonymousId: {
+      type: String,
+      trim: true,
+      default: null,
+    },
     version: {
       type: String,
       trim: true,
