@@ -13,6 +13,10 @@ const trackSchema = mongoose.Schema(
       trim: true,
       default: 'production',
     },
+    event: {
+      type: String,
+      trim: true,
+    },
     version: {
       type: String,
       trim: true,
